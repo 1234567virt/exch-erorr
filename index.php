@@ -6,7 +6,7 @@ $myArray = [
 	4 => [1 => "Сентябрь", "Октябрь", "Ноябрь"]
 ];
 
-function seasons (int $n) {
+function seasons (int $n) {//int убрать
     switch ($n) {
       case 1: return 'Зима';
       case 2: return 'Весна';
